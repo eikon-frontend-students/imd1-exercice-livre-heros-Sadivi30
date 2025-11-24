@@ -1,8 +1,114 @@
 body {
-  background-color: #1a1a1a;
+  width: 100%;
+  font-family: "LovedbytheKing";
+  background-image: url("/Images /start.png");
+  background-size: cover;
+  background-position: center;
+  opacity: var(#000000);
+}
+
+img {
+  display: block;
+  width: 700px;
+  margin: 50px auto;
+  padding: 10px;
+  text-align: center;
+  position: relative;
+  border-radius: 30px;
+}
+
+h1 {
+  font-family: "NewRocker-Regular";
+  text-align: center;
+  font-size: 24px;
+  color: white;
+}
+
+p {
+  font-family: "LovedbytheKing";
+  margin: 0px 24px 0px 24px;
+  text-align: justify;
+  font-size: 18px;
   color: white;
 }
 
 a {
   color: white;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(201, 242, 255);
+}
+
+section {
+  text-align: center;
+  padding: 20px;
+  width: 300px;
+  height: 30px;
+  background: linear-gradient(#8a5eff, #ffe15a);
+  color: white;
+  border-radius: 12px;
+  cursor: pointer;
+  box-shadow: 0 0 15px rgba(150, 100, 255, 0.5);
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+  margin: 620px 50px 500px 720px;
+}
+section:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 25px rgba(190, 120, 255, 0.7);
+}
+
+.text-section {
+  width: 700px;
+  height: auto;
+  margin: 50px auto;
+  background: rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(10px);
+  padding: 30px;
+  border-radius: 15px;
+}
+
+.with-text {
+  width: 306px;
+  height: 30px;
+  margin: 70px 400px 10px 700px;
+  text-align: center;
+  background-color: #bf90f1;
+}
+
+.button-1,
+.button-2 {
+  width: 280px;
+  display: flex;
+  height: auto;
+  margin: 100px auto;
+  float: left;
+  background: linear-gradient(#8a5eff, #ffe15a);
+  color: white;
+  padding: 20px;
+  cursor: pointer;
+  box-shadow: 0 0 15px rgba(150, 100, 255, 0.5);
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+.button-1:hover,
+.button-2:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 25px rgba(190, 120, 255, 0.7);
+}
+
+.button-2 {
+  float: right;
+}
+
+@font-face {
+  font-family: "LovedbytheKing";
+  src: url("/Fonts/LovedbytheKing.ttf") format("opentype");
+}
+
+@font-face {
+  font-family: "NewRocker-Regular";
+  src: url("/Fonts/NewRocker-Regular.ttf") format("opentype");
 }
