@@ -1,0 +1,66 @@
+body {
+  font-family: "NewRocker-Regular";
+  background-color: #1a1a1a;
+  margin: 0;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.teaser {
+  display: flex;
+  flex-direction: column;
+  background: #5e3d6b;
+  color: white;
+  border-radius: 15px;
+  text-decoration: none;
+  overflow: hidden;
+  max-width: 600px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.teaser:hover {
+  transform: scale(1.03);
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.15);
+}
+
+.teaser-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.teaser-content {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.teaser-title {
+  font-size: 26px;
+  margin: 0;
+}
+
+.teaser-text {
+  font-family: "LovedbytheKing";
+  font-size: 16px;
+  line-height: 1.5;
+  color: #e6e6e6;
+}
+
+.teaser-author {
+  font-family: "LovedbytheKing";
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+@font-face {
+  font-family: "NewRocker-Regular";
+  src: url("/Fonts/NewRocker-Regular.ttf") format("opentype");
+}
+
+@font-face {
+  font-family: "LovedbytheKing";
+  src: url("/Fonts/LovedbytheKing.ttf") format("opentype");
+}
